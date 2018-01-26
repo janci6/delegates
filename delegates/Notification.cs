@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace delegates
 {
-    public struct item
+    class Notification
     {
-        public string meno;
-        public int pocetkusov;
-        public double cenazakus;
-
     }
 }

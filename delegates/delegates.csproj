@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="balik.cs" />
     <Compile Include="item.cs" />
+    <Compile Include="Notification.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
