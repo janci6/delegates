@@ -10,6 +10,31 @@ namespace delegates
     {
         static void Main(string[] args)
         {
+            
+            
+                Balik S = new Balik();
+                item item = new item();
+                item.pocetkusov = 8887;
+                item.meno = "zasielka A";
+                item.cenazakus = 13;
+
+                S.Additem(item);
+
+                item = new item();
+                item.cenazakus = 99;
+                item.meno = "zasielka B";
+
+            S.Additem(item);
+
+            Notification n = new Notification();
+            S.TrackingnumberAdded += n.notify;
+
+            S.Trackingnumber = "1232nn";
+
+            Console.ReadLine();
+
+                
+
         }
     }
 }

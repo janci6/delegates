@@ -8,5 +8,9 @@ namespace delegates
 {
     class Notification
     {
+        public void notify(string message)
+        {
+            Console.WriteLine(message);
+        }
     }
 }

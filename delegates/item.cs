@@ -12,5 +12,6 @@ namespace delegates
         public int pocetkusov;
         public double cenazakus;
 
+
     }
 }

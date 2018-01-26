@@ -11,12 +11,12 @@ namespace delegates
     {
         public ArrayList Items = new ArrayList();
 
-
+        string trackingnumber;
         public string Trackingnumber
         {
             get { return Trackingnumber; }
-            set {Trackingnumber = value;
-                TrackingnumberAdded?.Invoke("Toto je cislo balika"); // ? sa pyta ci neni tracking number null
+            set {trackingnumber = value;
+                TrackingnumberAdded?.Invoke(Vratinfo()); // ? sa pyta ci neni tracking number null
             }
         }
 
